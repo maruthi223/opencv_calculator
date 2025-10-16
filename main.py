@@ -15,7 +15,7 @@ from google import genai
 from PIL import Image
 
 
-client = genai.Client(api_key="AIzaSyDCsdlR9WU6JM9MDMh9ZnvcAGnbhmJDRbQ")
+client = genai.Client(api_key="")
 # Initialize the webcam to capture video
 # The '2' indicates the third camera connected to your computer; '0' would usually refer to the built-in camera
 cap = cv2.VideoCapture(0)
